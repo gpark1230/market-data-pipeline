@@ -54,7 +54,7 @@ sqlite3 fx_rates.db "SELECT * FROM rates ORDER BY rate_date DESC;"
 ## Tests
 
 ```bash
-pytest
+python -m pytest
 ```
 
 The tests use mocked API responses, so they run without a network connection. They cover a successful run, every failure the script handles (timeout, connection error, HTTP error, invalid JSON), the data checks (missing currency, stale data, weekend gap) and the database (writes and no duplicates).
