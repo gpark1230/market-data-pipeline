@@ -111,3 +111,13 @@ market-data-pipeline/
 ├── pytest.ini
 └── README.md
 ```
+
+## Example output from a live run:
+
+'''
+USD rates for 2026-11-19:
+  CAD: 1.43
+  EUR: 0.90975
+  GBP: 0.76038
+  JPY: 159.97
+'''
